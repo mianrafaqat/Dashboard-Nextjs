@@ -9,9 +9,86 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.11.10",
+    "@mui/x-data-grid": "^5.17.24",
     "@next/font": "13.1.6",
+    "@progress/kendo-drawing": "^1.17.4",
+    "@progress/kendo-licensing": "^1.3.0",
+    "@progress/kendo-react-buttons": "^5.11.0",
+    "@progress/kendo-react-dialogs": "^5.11.0",
+    "@progress/kendo-react-dropdowns": "^5.11.0",
+    "@progress/kendo-react-editor": "^5.11.0",
+    "@progress/kendo-react-inputs": "^5.11.0",
+    "@progress/kendo-react-intl": "^5.11.0",
+    "@progress/kendo-react-layout": "^5.11.0",
+    "@progress/kendo-react-pdf": "^5.11.0",
+    "@progress/kendo-react-popup": "^5.11.0",
+    "@progress/kendo-react-progressbars": "^5.11.0",
+    "@progress/kendo-svg-icons": "^1.4.0",
+    "@progress/kendo-theme-default": "^6.1.0",
+    "@syncfusion/ej2": "^19.4.48",
+    "@syncfusion/ej2-base": "^20.4.48",
+    "@syncfusion/ej2-react-calendars": "^19.4.48",
+    "@syncfusion/ej2-react-charts": "^19.4.50",
+    "@syncfusion/ej2-react-dropdowns": "^19.4.52",
+    "@syncfusion/ej2-react-grids": "^19.4.50",
+    "@syncfusion/ej2-react-inputs": "^19.4.52",
+    "@syncfusion/ej2-react-kanban": "^19.4.48",
+    "@syncfusion/ej2-react-popups": "^19.4.53",
+    "@syncfusion/ej2-react-richtexteditor": "^19.4.50",
+    "@syncfusion/ej2-react-schedule": "^19.4.50",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.2.0",
+    "devextreme": "^22.2.4",
+    "devextreme-react": "^22.2.4",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "fusioncharts": "^3.19.0",
     "next": "13.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-beautiful-dnd": "^13.1.1",
+    "react-big-calendar": "^1.6.8",
+    "react-chartjs-2": "^5.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "18.2.0",
+    "react-funnel": "^1.0.0",
+    "react-funnel-pipeline": "^0.2.0",
+    "react-fusioncharts": "^4.0.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.0",
+    "react-trello": "^2.2.11",
+    "recharts": "^2.4.3",
+    "smart-webcomponents-react": "^15.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
