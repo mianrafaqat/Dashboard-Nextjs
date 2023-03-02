@@ -16,7 +16,7 @@ function QuickSearchToolbar() {
       >
         <GridToolbarQuickFilter
         style={{ width: 300,  }}
-          quickFilterParser={(searchInput= string) =>
+          quickFilterParser={(searchInput= String) =>
             searchInput
               .split(',')
               .map((value) => value.trim())
@@ -28,7 +28,7 @@ function QuickSearchToolbar() {
   }
 
 export default function Employees() {
-    const editing = { allowDeleting: true, allowEditing: true };
+    // const editing = { allowDeleting: true, allowEditing: true };
 
 
   return (

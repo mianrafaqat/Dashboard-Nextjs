@@ -8,7 +8,7 @@ import { useSateContext } from "@/contexts/ContextProvider";
 
 export default function Sidebar() {
   const pathname = usePathname();
-  const { activeMenu, setActiveMenu, screenSize, currentColor } =
+  const { activeMenu, setActiveMenu, screenSize } =
     useSateContext();
 
   const handleCloseSideBar = () => {

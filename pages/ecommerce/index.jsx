@@ -1,10 +1,10 @@
-import { BsCurrencyDollar } from "react-icons/bs";
+// import { BsCurrencyDollar } from "react-icons/bs";
 import { GoPrimitiveDot } from "react-icons/go";
 import Stacked from "../../Components/Charts/Stacked";
-import Pie from "../Charts/pie";
+// import Pie from "../Charts/pie";
 import { Button } from "@/Components";
 import { SparkLine } from "@/Components";
-import { earningData, SparklineAreaData, ecomPieChartData } from "@/data/dummy";
+import { earningData, SparklineAreaData } from "@/data/dummy";
 import { useSateContext } from "@/contexts/ContextProvider";
 
 export default function Ecommerce() {

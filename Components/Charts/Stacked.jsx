@@ -1,14 +1,13 @@
-import React, { PureComponent } from "react";
+import React from "react";
+import { useSateContext } from "@/contexts/ContextProvider";
 import {
   BarChart,
   Bar,
-  Cell,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from "recharts";
 
 const data = [
@@ -56,13 +55,14 @@ const data = [
   },
 ];
 
-import { useSateContext } from "@/contexts/ContextProvider";
 
-export default function Stacked({currentColor}) {
-  const { currentMode } = useSateContext();
+
+export default function Stacked() {
+  const { currentMode, currentColor } = useSateContext();
 
   return (
     <>
+    <div style={{ backgroundColor: currentMode === "Dark" ? "#33373E" : "#fff" }}>
       <BarChart
         width={350}
         height={360}
@@ -82,6 +82,7 @@ export default function Stacked({currentColor}) {
         <Bar dataKey="pv" stackId="a" fill={currentColor} />
         <Bar dataKey="uv" stackId="a" fill="#82ca9d" />
       </BarChart>
+    </div>
     </>
   );
 }

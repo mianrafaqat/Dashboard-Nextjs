@@ -2,14 +2,14 @@ import React from "react";
 import {
     BarChart,
     Bar,
-    Cell,
+    
     XAxis,
     YAxis,
     CartesianGrid,
     Tooltip,
     Legend,
     ReferenceLine,
-    ResponsiveContainer,
+    
   } from 'recharts';
   import { Header } from "@/Components";
 import { useSateContext } from "@/contexts/ContextProvider";

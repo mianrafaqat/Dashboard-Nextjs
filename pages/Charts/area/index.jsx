@@ -1,6 +1,6 @@
 import { Header } from "@/Components";
 import { useSateContext } from "@/contexts/ContextProvider";
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const data = [
   {

@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import { useSateContext } from "@/contexts/ContextProvider";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import { Line } from "react-chartjs-2";
 
 const data = {

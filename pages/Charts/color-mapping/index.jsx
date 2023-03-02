@@ -3,12 +3,6 @@ import {
   BarChart,
   Bar,
   Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
 } from "recharts";
 import { Header } from "@/Components";
 import { useSateContext } from "@/contexts/ContextProvider";

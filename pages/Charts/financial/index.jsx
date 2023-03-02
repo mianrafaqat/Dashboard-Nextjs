@@ -1,6 +1,6 @@
 import { Header } from "@/Components";
 import { useSateContext } from "@/contexts/ContextProvider";
-import React, { PureComponent } from "react";
+import React from "react";
 import {
   LineChart,
   Line,
@@ -9,7 +9,6 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
-  ResponsiveContainer,
 } from "recharts";
 
 const data = [

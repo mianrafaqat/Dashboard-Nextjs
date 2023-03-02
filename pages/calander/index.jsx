@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { scheduleData } from "@/data/dummy";
+import React from "react";
 import { Header } from "@/Components";
 import { Calendar, momentLocalizer } from "react-big-calendar";
 import moment from "moment";

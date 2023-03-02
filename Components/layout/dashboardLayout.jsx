@@ -1,8 +1,8 @@
 import React from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import { Navbar, Footer, Sidebar, ThemeSettings } from "@/components";
+import { Navbar, Sidebar, ThemeSettings } from "@/components";
 import { useSateContext } from "@/contexts/ContextProvider";
 
 export default function DashboardLayout({ children }) {
